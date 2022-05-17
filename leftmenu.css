@@ -1,0 +1,51 @@
+body {
+    margin: 0.5rem;
+    background-color: gray;
+    font-family: Roboto;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.navbar {
+    width: 25vh;
+    height: 120vh;
+    background-color: rgb(255, 179, 56);
+    position: absolute;
+    top: 0;
+    left: -18vh;
+    transition: left 1s;
+    margin-left: 2px;
+}
+
+.navbar:hover {
+    left: 0;
+}
+
+.navbar .title {
+    position: relative;
+    background-color: rgb(184, 113, 0);
+    padding: 0.3rem;
+}
+
+.navbar .title i {
+    position: absolute;
+    right: 0.5rem;
+    transition: transform 1s;
+}
+
+.navbar:hover i {
+    transform: rotate(180deg);
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0.5rem;
+}
+
+.navbar ul a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 0.7rem;
+}
