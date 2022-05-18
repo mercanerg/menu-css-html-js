@@ -2,8 +2,32 @@ body {
     margin: 0.5rem;
     background-color: gray;
     font-family: Roboto;
-    color: white;
     font-size: 1.2rem;
+}
+
+.main {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-content {
+    background-color: gray;
+}
+
+.dailyquote {
+    padding: 0.5rem;
+    margin: auto;
+    border-radius: 20px;
+    top: 20rem;
+    background-color: aliceblue;
+    width: 60rem;
+    height: 5rem;
+}
+
+.author {
+    text-align: right;
 }
 
 .navbar {
